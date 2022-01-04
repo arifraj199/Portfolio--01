@@ -7,10 +7,23 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 100px;
 }
 
 nav {
-    background-color: orange;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    background: linear-gradient( 117deg, rgb(96, 87, 246), rgb(216, 71, 99));
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+}
+
+p {
+    color: white;
+    font-weight: 100;
 }
 
 .flexible-container {
@@ -53,7 +66,39 @@ nav {
     color: white;
 }
 
+.bg-img {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    background: linear-gradient( 117deg, rgb(96, 87, 246), rgb(216, 71, 99));
+    padding: 100px 20px;
+}
+
 .half-width {
     width: 50%;
     padding-left: 5%;
+}
+
+.section-img {
+    transform: rotate(-8deg);
+}
+
+.section-img img {
+    border: 15px solid white;
+    border-radius: 5%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: #0ABCEB;
+    padding: 14px 30px;
+    border-radius: 20px;
+    transition: 0.5s all ease;
+    font-weight: 200;
+}
+
+.link-button:hover {
+    background-color: #58D5F7;
+    padding: 18px 35px;
+    border-radius: 40px;
+    font-weight: 500;
+    color: white;
 }
