@@ -4,7 +4,7 @@
 */
 
 * {
-    margin: 0
+    margin: 0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -247,4 +247,86 @@ p {
 
 .box-shadow-design {
     box-shadow: 0px 0px 12px -5px black;
+}
+
+.team-content {
+    padding: 25px 0;
+}
+
+.team-width {
+    width: 30%;
+    padding: 5%;
+}
+
+.team-width img {
+    width: 50%;
+    padding-left: 25%;
+}
+
+.team-width h1,
+h4,
+p {
+    color: rgb(133, 133, 133);
+    text-align: center;
+}
+
+.team-width h1 {
+    font-size: 20px;
+}
+
+.team-width h4 {
+    color: black;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.team-width p {
+    line-height: 40px;
+}
+
+.email-section-bg {
+    background-color: #047fa1;
+    padding: 30px;
+}
+
+.email-section-bg h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 28px;
+}
+
+.email-section-bg p {
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.input {
+    margin-left: 35%;
+    margin-top: 2%;
+    border: 0;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.email-button {
+    background-color: #25F18B;
+    padding: 15px 20px;
+}
+
+.email-button:hover {
+    background-color: #25F18B;
+    padding: 18px 22px;
+}
+
+.footer {
+    background-color: #464646;
+    padding: 30px;
+    margin-bottom: 150px;
+}
+
+.footer p {
+    text-align: center;
+    color: rgb(219, 218, 218);
 }
