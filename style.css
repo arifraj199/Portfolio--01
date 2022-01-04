@@ -21,7 +21,7 @@ nav {
 h1 {
     font-size: 40px;
     color: white;
-    font-weight: 600;
+    font-weight: 200;
 }
 
 h4 {
@@ -129,6 +129,7 @@ p {
 .feature-section h1 {
     text-align: center;
     margin-top: 40px;
+    font-weight: 200;
 }
 
 .feature-section h4 {
@@ -156,4 +157,94 @@ p {
 .width-feature-content p {
     text-align: center;
     font-weight: 100;
+}
+
+.bg-logos {
+    background-color: #F9FAFA;
+    padding: 20px 0 20px 250px;
+}
+
+.bg-logos img {
+    align-items: center;
+}
+
+.imac {
+    width: 80%;
+}
+
+.content-two {
+    padding: 5% 5%;
+}
+
+.content-two-div {
+    padding-top: 5px;
+    padding-left: 0;
+}
+
+.pricing-section {
+    background-color: #F8F9F9;
+    padding: 5%;
+}
+
+.pricing-section h2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #7f7f81;
+    text-align: center;
+}
+
+.pricing-section h3 {
+    font-size: 15px;
+    font-weight: 200;
+    color: #7f7f81;
+    text-align: center;
+}
+
+.pricing-width {
+    width: 20%;
+    padding: 40px 100px;
+}
+
+.pricing-width h1 {
+    text-align: center;
+}
+
+.pricing-width h2 {
+    text-align: center;
+}
+
+.pricing-width h6 {
+    text-align: center;
+}
+
+.pricing-width p {
+    text-align: center;
+    ;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+.margin-bottom {
+    margin-bottom: 25px;
+}
+
+.pricing-button {
+    text-decoration: none;
+    margin: 0 20%;
+    background: #0ABCEB;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: 0.5s all ease;
+}
+
+.pricing-button:hover {
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px cyan;
+}
+
+.box-shadow-design {
+    box-shadow: 0px 0px 12px -5px black;
 }
